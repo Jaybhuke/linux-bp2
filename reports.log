@@ -1,20 +1,8 @@
-Log analysis report Sun Apr 19 19:35:09 UTC 2026
+Log analysis report Mon Apr 20 19:23:45 UTC 2026
 ---------------------------
----------------
-Checking /var/log/cloud-init-output.log
-No errors in /var/log/cloud-init-output.log
----------------
-Checking /var/log/cloud-init.log
-No errors in /var/log/cloud-init.log
----------------
-Checking /var/log/dnf.librepo.log
-/var/log/dnf.librepo.log has 1 errors
----------------
-Checking /var/log/dnf.log
+Top Error Logs:
 /var/log/dnf.log has 4 errors
----------------
-Checking /var/log/dnf.rpm.log
 /var/log/dnf.rpm.log has 1 errors
----------------
-Checking /var/log/hawkey.log
-No errors in /var/log/hawkey.log
+/var/log/dnf.librepo.log has 1 errors
+
+Analysis Complete
