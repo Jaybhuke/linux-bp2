@@ -44,14 +44,14 @@ It helps in proactive monitoring by detecting errors and sending alerts.
 ```bash
 git clone
 cd "/"
-
+```
 ---
 
 ## Make Script Executable
 
 ```bash
 chmod +X log_analyzer.sh
-
+```
 ---
 
 ## Add Environment Variables
@@ -62,8 +62,10 @@ chmod +X log_analyzer.sh
 
 TOKEN=your_token
 CHAT_ID=your_chat_id
+```
+---
 
 ## Run Script
 ```bash
 ./log_analyzer.sh
-
+```
