@@ -1,8 +1,0 @@
-Log analysis report Mon Apr 20 19:23:45 UTC 2026
----------------------------
-Top Error Logs:
-/var/log/dnf.log has 4 errors
-/var/log/dnf.rpm.log has 1 errors
-/var/log/dnf.librepo.log has 1 errors
-
-Analysis Complete

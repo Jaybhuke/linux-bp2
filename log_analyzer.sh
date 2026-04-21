@@ -12,7 +12,7 @@ echo "---------------------------" >> $REPORT
 
 for file in $LOG_DIR/*.log
 do
-	ERROR_COUNT=$(grep -i "error" $file 2>/dev/null | wc -l)
+	ERROR_COUNT=$(grep -Ei "error|failed|critical" $file 2>/dev/null | wc -l)
 
 	if [ $ERROR_COUNT -gt 0 ]; then
 		echo "$ERROR_COUNT $file" >> $TEMP_FILE
