@@ -43,5 +43,27 @@ It helps in proactive monitoring by detecting errors and sending alerts.
 ## Setup instructions
 ```bash
 git clone
-cd 
- 
+cd "/"
+
+---
+
+## Make Script Executable
+
+```bash
+chmod +X log_analyzer.sh
+
+---
+
+## Add Environment Variables
+
+1. Create .env files
+
+```bash
+
+TOKEN=your_token
+CHAT_ID=your_chat_id
+
+## Run Script
+```bash
+./log_analyzer.sh
+
